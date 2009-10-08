@@ -20,6 +20,6 @@ PS1="%n@%m:%~%# "
 # Setup the prompt with pretty colors
 setopt prompt_subst
 
-export LSCOLORS="Gxfxcxdxbxegedabagacad"
+#export LSCOLORS="Gxfxcxdxbxegedabagacad"
 
 source "$ZSH/themes/$ZSH_THEME.zsh-theme"

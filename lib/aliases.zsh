@@ -11,7 +11,7 @@ alias sp='ruby script/plugin'
 alias ssp='ruby script/spec'
 alias rdbm='rake db:migrate'
 
-alias mr='mate CHANGELOG app config db lib public script spec test'
+#alias mr='mate CHANGELOG app config db lib public script spec test'
 #alias .='pwd'
 alias ...='cd ../..'
 alias -- -='cd -'
@@ -26,7 +26,7 @@ alias gst='git status'
 alias gl='git pull'
 alias gup='git fetch && git rebase'
 alias gp='git push'
-alias gd='git diff | mate'
+#alias gd='git diff | mate'
 alias gdv='git diff -w "$@" | vim -R -'
 alias gc='git commit -v'
 alias gca='git commit -v -a'
@@ -51,10 +51,10 @@ alias afind='ack-grep -il'
 
 alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
 
-alias et='mate . &'
-alias ett='mate app config lib db public spec test Rakefile Capfile Todo &'
-alias etp='mate app config lib db public spec test vendor/plugins vendor/gems Rakefile Capfile Todo &'
-alias etts='mate app config lib db public script spec test vendor/plugins vendor/gems Rakefile Capfile Todo &'
+#alias et='mate . &'
+#alias ett='mate app config lib db public spec test Rakefile Capfile Todo &'
+#alias etp='mate app config lib db public spec test vendor/plugins vendor/gems Rakefile Capfile Todo &'
+#alias etts='mate app config lib db public script spec test vendor/plugins vendor/gems Rakefile Capfile Todo &'
 
 
 

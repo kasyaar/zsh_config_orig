@@ -12,7 +12,7 @@ alias ssp='ruby script/spec'
 alias rdbm='rake db:migrate'
 
 alias mr='mate CHANGELOG app config db lib public script spec test'
-alias .='pwd'
+#alias .='pwd'
 alias ...='cd ../..'
 alias -- -='cd -'
 

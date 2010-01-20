@@ -4,7 +4,7 @@
 #PROMPT='%{$fg[black]%}[%n@%m]$(git_prompt_info)%{$reset_color%}%{$fg[black]%}%#%{$reset_color%} '
 VCSINFOPREFIX="%{$fg[red]%}‹"
 VCSINFOSUFFIX="›%{$reset_color%}"
-PROMPT='%{$fg[black]%}[%n@%m]$(get_vcs_info)%{$reset_color%}%{$fg[black]%}%#%{$reset_color%} '
-RPROMPT='%{$fg_bold[black]%}%~%{$reset_color%}'
+PROMPT='[%n@%m]$(get_vcs_info)%# '
+RPROMPT='%~'
 
 #export PS1="[%n@%m]%d%# "

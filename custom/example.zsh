@@ -3,4 +3,4 @@
 #
 # brainstormr=/Users/robbyrussell/Projects/development/planetargon/brainstormr
 #
-alias ls='ls -wFG'
+#alias ls='ls -wFG'
